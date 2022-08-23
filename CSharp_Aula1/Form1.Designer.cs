@@ -122,7 +122,7 @@
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(97, 23);
             this.btnSoma.TabIndex = 9;
-            this.btnSoma.Text = "SOMA";
+            this.btnSoma.Text = "Soma";
             this.btnSoma.UseVisualStyleBackColor = true;
             this.btnSoma.Click += new System.EventHandler(this.btnSoma_Click);
             // 
