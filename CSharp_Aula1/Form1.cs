@@ -86,6 +86,8 @@ namespace CSharp_Aula1
         {
             valor1 = valor1 + int.Parse(txtValor.Text);
             txtTotal.Text = valor1.ToString();
+            txtValor.Text = "";
+            txtQuantidade.Text = (i+1).ToString();
         }
     }
 }

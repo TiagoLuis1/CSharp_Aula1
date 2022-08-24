@@ -51,7 +51,7 @@
             this.txtValor = new System.Windows.Forms.TextBox();
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtQuantidade = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnConcatenacao
@@ -244,25 +244,25 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(1107, 53);
+            this.label10.Location = new System.Drawing.Point(787, 79);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(105, 13);
             this.label10.TabIndex = 22;
             this.label10.Text = "Quantidade da soma";
             // 
-            // textBox1
+            // txtQuantidade
             // 
-            this.textBox1.Location = new System.Drawing.Point(1001, 50);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 23;
+            this.txtQuantidade.Location = new System.Drawing.Point(898, 76);
+            this.txtQuantidade.Name = "txtQuantidade";
+            this.txtQuantidade.Size = new System.Drawing.Size(97, 20);
+            this.txtQuantidade.TabIndex = 23;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1257, 450);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtQuantidade);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtValor);
@@ -318,7 +318,7 @@
         private System.Windows.Forms.TextBox txtValor;
         private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtQuantidade;
     }
 }
 
