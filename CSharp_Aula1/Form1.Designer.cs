@@ -69,27 +69,27 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(112, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Nome";
+            this.label1.Text = "Nome:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(86, 113);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 13);
+            this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Sobrenome";
+            this.label2.Text = "Sobrenome:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(65, 187);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 13);
+            this.label3.Size = new System.Drawing.Size(85, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Nome Completo";
+            this.label3.Text = "Nome Completo:";
             // 
             // txtNome
             // 
@@ -201,9 +201,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(861, 53);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(31, 13);
+            this.label8.Size = new System.Drawing.Size(34, 13);
             this.label8.TabIndex = 17;
-            this.label8.Text = "Valor";
+            this.label8.Text = "Valor:";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // btnSomar
@@ -221,9 +221,9 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(861, 184);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(31, 13);
+            this.label9.Size = new System.Drawing.Size(34, 13);
             this.label9.TabIndex = 19;
-            this.label9.Text = "Total";
+            this.label9.Text = "Total:";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // txtValor
@@ -246,9 +246,9 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(787, 79);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(105, 13);
+            this.label10.Size = new System.Drawing.Size(108, 13);
             this.label10.TabIndex = 22;
-            this.label10.Text = "Quantidade da soma";
+            this.label10.Text = "Quantidade da soma:";
             // 
             // txtQuantidade
             // 

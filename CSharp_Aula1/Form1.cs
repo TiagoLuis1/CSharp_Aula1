@@ -24,6 +24,7 @@ namespace CSharp_Aula1
         int i;
 
         int valor1;
+        int qtd; 
         
 
         private void btnConcatenacao_Click(object sender, EventArgs e)
@@ -84,10 +85,12 @@ namespace CSharp_Aula1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             valor1 = valor1 + int.Parse(txtValor.Text);
             txtTotal.Text = valor1.ToString();
             txtValor.Text = "";
             txtQuantidade.Text = (i+1).ToString();
+            
         }
     }
 }
