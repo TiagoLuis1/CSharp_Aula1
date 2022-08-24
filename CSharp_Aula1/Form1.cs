@@ -21,6 +21,7 @@ namespace CSharp_Aula1
 
         int N1;
         int N2;
+        int i;
 
         private void btnConcatenacao_Click(object sender, EventArgs e)
         {
@@ -50,6 +51,37 @@ namespace CSharp_Aula1
             {
                 txtN3.Text = "É um número igual ou menor que dez";
             }
+        }
+
+        private void btnConta_Click(object sender, EventArgs e)
+        {
+            
+            
+            for (int i = 0; i < 10; i++) ;
+            {
+                //txtResultado.Text = i++.ToString();
+                MessageBox.Show(i.ToString());
+            }
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
