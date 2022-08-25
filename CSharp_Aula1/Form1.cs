@@ -98,6 +98,12 @@ namespace CSharp_Aula1
             Form2 form=new Form2();
             form.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form3 form=new Form3();
+            form.Show();
+        }
     }
 }
 

@@ -53,6 +53,9 @@
             this.label10 = new System.Windows.Forms.Label();
             this.txtQuantidade = new System.Windows.Forms.TextBox();
             this.btnFormDois = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnConcatenacao
@@ -236,7 +239,7 @@
             // 
             // txtTotal
             // 
-            this.txtTotal.Location = new System.Drawing.Point(898, 181);
+            this.txtTotal.Location = new System.Drawing.Point(898, 184);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(97, 20);
             this.txtTotal.TabIndex = 21;
@@ -260,7 +263,7 @@
             // 
             // btnFormDois
             // 
-            this.btnFormDois.Location = new System.Drawing.Point(1051, 179);
+            this.btnFormDois.Location = new System.Drawing.Point(53, 311);
             this.btnFormDois.Name = "btnFormDois";
             this.btnFormDois.Size = new System.Drawing.Size(97, 23);
             this.btnFormDois.TabIndex = 24;
@@ -268,11 +271,42 @@
             this.btnFormDois.UseVisualStyleBackColor = true;
             this.btnFormDois.Click += new System.EventHandler(this.btnFormDois_Click);
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(53, 295);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(97, 13);
+            this.label11.TabIndex = 25;
+            this.label11.Text = "Ir para formulário 2:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(218, 311);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(97, 24);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "Formulário 3";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(215, 295);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(97, 13);
+            this.label12.TabIndex = 27;
+            this.label12.Text = "Ir para formulário 3:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1257, 450);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.btnFormDois);
             this.Controls.Add(this.txtQuantidade);
             this.Controls.Add(this.label10);
@@ -332,6 +366,9 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtQuantidade;
         private System.Windows.Forms.Button btnFormDois;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label12;
     }
 }
 
