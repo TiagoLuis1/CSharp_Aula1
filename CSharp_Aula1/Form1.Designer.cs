@@ -52,6 +52,7 @@
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txtQuantidade = new System.Windows.Forms.TextBox();
+            this.btnFormDois = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConcatenacao
@@ -208,7 +209,7 @@
             // 
             // btnSomar
             // 
-            this.btnSomar.Location = new System.Drawing.Point(898, 139);
+            this.btnSomar.Location = new System.Drawing.Point(898, 149);
             this.btnSomar.Name = "btnSomar";
             this.btnSomar.Size = new System.Drawing.Size(97, 23);
             this.btnSomar.TabIndex = 18;
@@ -235,7 +236,7 @@
             // 
             // txtTotal
             // 
-            this.txtTotal.Location = new System.Drawing.Point(898, 177);
+            this.txtTotal.Location = new System.Drawing.Point(898, 181);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(97, 20);
             this.txtTotal.TabIndex = 21;
@@ -257,11 +258,22 @@
             this.txtQuantidade.Size = new System.Drawing.Size(97, 20);
             this.txtQuantidade.TabIndex = 23;
             // 
+            // btnFormDois
+            // 
+            this.btnFormDois.Location = new System.Drawing.Point(1051, 179);
+            this.btnFormDois.Name = "btnFormDois";
+            this.btnFormDois.Size = new System.Drawing.Size(97, 23);
+            this.btnFormDois.TabIndex = 24;
+            this.btnFormDois.Text = "Formulário 2";
+            this.btnFormDois.UseVisualStyleBackColor = true;
+            this.btnFormDois.Click += new System.EventHandler(this.btnFormDois_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1257, 450);
+            this.Controls.Add(this.btnFormDois);
             this.Controls.Add(this.txtQuantidade);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtTotal);
@@ -319,6 +331,7 @@
         private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtQuantidade;
+        private System.Windows.Forms.Button btnFormDois;
     }
 }
 

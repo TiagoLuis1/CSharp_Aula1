@@ -63,8 +63,8 @@ namespace CSharp_Aula1
             
             for (int i = 0; i < 10; i++) ;
             {
-                //txtResultado.Text = i++.ToString();
-                MessageBox.Show(i.ToString());
+                txtResultado.Text = i++.ToString();
+                //MessageBox.Show(i.ToString());
             }
         }
 
@@ -86,11 +86,17 @@ namespace CSharp_Aula1
         private void button1_Click(object sender, EventArgs e)
         {
             
-            valor1 = valor1 + int.Parse(txtValor.Text);
-            txtTotal.Text = valor1.ToString();
-            txtValor.Text = "";
-            txtQuantidade.Text = (i+1).ToString();
+           valor1 = valor1 + int.Parse(txtValor.Text);
+           txtTotal.Text = valor1.ToString();
+           // txtValor.Text = "";
+           // txtQuantidade.Text = (i+1).ToString();
             
+        }
+
+        private void btnFormDois_Click(object sender, EventArgs e)
+        {
+            Form2 form=new Form2();
+            form.Show();
         }
     }
 }
